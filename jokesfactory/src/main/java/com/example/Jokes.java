@@ -13,7 +13,7 @@ public class Jokes
                 "Who’s there?\n" +
                 "Control Freak.\n" +
                 "Con—\n" +
-                "Okay, now you say, “Control Freak who?";
+                "Okay, now you say: Control Freak who?";
 
         String joke2 = "Knock! Knock!\n" +
                 "Who’s there?\n" +
