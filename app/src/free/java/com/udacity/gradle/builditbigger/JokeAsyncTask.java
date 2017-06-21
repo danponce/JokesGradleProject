@@ -18,7 +18,6 @@ import java.io.IOException;
 public class JokeAsyncTask extends AsyncTask<Context, Void, String>
 {
     private static MyApi myApiService = null;
-    private Context context;
     private TaskCompleted mTaskCompletedListener;
 
     public JokeAsyncTask(TaskCompleted taskCompletedListener)
@@ -46,8 +45,6 @@ public class JokeAsyncTask extends AsyncTask<Context, Void, String>
 
             myApiService = builder.build();
         }
-
-        context = params[0];
 
         try {
             return myApiService.newJoke().execute().getData();
