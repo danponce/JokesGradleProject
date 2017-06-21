@@ -9,25 +9,16 @@ public class Jokes
     public String getJoke()
     {
         String joke1 = "Control Freak\n" +
-                "\n" +
                 "Knock! Knock!\n" +
-                "\n" +
                 "Who’s there?\n" +
-                "\n" +
                 "Control Freak.\n" +
-                "\n" +
                 "Con—\n" +
-                "\n" +
-                "Okay, now you say, “Control Freak who?”";
+                "Okay, now you say, “Control Freak who?";
 
         String joke2 = "Knock! Knock!\n" +
-                "\n" +
                 "Who’s there?\n" +
-                "\n" +
                 "Impatient cow.\n" +
-                "\n" +
                 "Impatient co…\n" +
-                "\n" +
                 "MOO!";
 
         String joke3 = "Knock! Knock!\n" +
@@ -37,13 +28,9 @@ public class Jokes
                 "Wanda hang out with me right now?";
 
         String joke4 = "Knock! Knock!\n" +
-                "\n" +
                 "Who’s there?\n" +
-                "\n" +
                 "Olive.\n" +
-                "\n" +
                 "Olive who?\n" +
-                "\n" +
                 "Olive you and I don’t care who knows it!";
 
         List<String> jokeList = new ArrayList<>();
